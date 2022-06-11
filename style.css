@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #F5F7FB;
+}
+
+/*HOME*/
+
+.home-main{
+    max-width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.home-main-title,
+.home-main-description{
+    margin: 0;
+    color: #293264;
+}
+
+.home-main-title{
+    margin-bottom: 7px;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 1.953rem;
+}
+
+.home-main-description{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.home-main-btn{
+    width: 190px;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/*QUIZ*/
+
+.quiz-container{
+    padding: 25px 50px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.questions-container{
+    margin-bottom: 20px;
+}
+
+/*QUESTION COMPONENT*/
+
+.questionComp-container{
+    padding-top: 15px;
+    border-bottom: 0.794239px solid #DBDEF0;
+}
+
+.questionComp-question{
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 1rem;
+    color: #293264;
+}
+
+/*ANSWER COMPONENT*/
+
+.questionComp-answers-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answerComp-answer{
+    display: inline-block;
+    min-width: 65px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    padding: 4px 8px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.64rem;
+    text-align: center;
+    color: #293264;
+    border: 1px solid #293264;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*RESULTS AREA*/
+
+.result-button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.result-button-container-result{
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #293264;
+}
+
+.result-button-container-btn{
+    width: 120px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 0.64rem;
+    text-align: center;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
